@@ -19,8 +19,8 @@ sudo bettercap
 3. Tab allow button tablet
 4. adb devices
 5. adb shell
-   > su
-   > whoami (root)
+   * su
+   * whoami (root)
 
 ## TCPdump for android
 1. Download Tcpdump
