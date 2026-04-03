@@ -108,6 +108,11 @@ sudo bettercap
     * Copy JWT Token and Paste at token.dev
 6. Reviews Databases
     * ls databases
+    * exit
+    * exit
+7. adb shell su -c "cat /data/data/com.tplink.iot/database/tpCamera-db" > /home/mobexler/tpCamera-db
+8. cd /home/mobexler
+9. sqlitebrowser tpCamera-db
 
 
 
