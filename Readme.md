@@ -120,6 +120,10 @@ Inspect Shared Preference
 3. cd /data/data/com.tplink.iot/shared_prefs
 4. cat tp_iam_sp.xml
 
+MAS Application
+1. cd /data/data/com.cn.cannet_dlms.mas/shared_prefs
+2. cat com.cm.cannet_dlms.mas_preferences.xml
+
 
 
 
