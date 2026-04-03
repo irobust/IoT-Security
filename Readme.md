@@ -126,7 +126,12 @@ MAS Application
 3. exit
 4. exit
 5. adb shell su -c "cat /data/data/com.cn.cannet_dlms.mas/shared_prefs/com.cn.cannet_dlms.mas_preferences.xml" > /mnt/hgfs/Vmware_shared/mas_preferences.xml
-6. 
+
+
+Review Log
+1. adb shell su -c "ls /data/data | grep mas"
+2. adb shell su -c "ps | grep com.cn.cannet_dlms.mas"
+3. adb logcat | grep [Process ID from step 2]
 
 
 
