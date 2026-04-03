@@ -114,6 +114,12 @@ sudo bettercap
 8. cd /home/mobexler
 9. sqlitebrowser tpCamera-db
 
+Inspect Shared Preference
+1. adb shell
+2. su
+3. cd /data/data/com.tplink.iot/shared_prefs
+4. cat tp_iam_sp.xml
+
 
 
 
