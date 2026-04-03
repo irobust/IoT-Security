@@ -1,4 +1,5 @@
 # IoT Security Workshop
+## Bettercap
 ```
 sudo bettercap
     >> help
@@ -12,7 +13,7 @@ sudo bettercap
     >> net.sniff off
 ```
 
-Mobexler
+## Mobexler
 1. Open Wifi ADB
 2. adb connect [IP Address]:5555
 3. Tab allow button tablet
@@ -85,11 +86,11 @@ Mobexler
 4. jadx-gui TP-Link-Tapo.xapk
 
 ### Extract XAPK First
-Windows
+#### Windows
 1. Rename TP-Link....xapk => TP-Link......zip
 2. Right click and Extract all
 
-Mobexler
+#### Mobexler
 3. cd TP-Link....
 4. jadx-gui com.tplink.iot.apk
 
