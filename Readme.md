@@ -100,6 +100,8 @@ sudo bettercap
 3. adb devices
 4. adb shell
     * su
+    * ls /data/data | grep tplink
+    * ls /data/data/com.tplink.iot
 
 
 
