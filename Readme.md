@@ -123,6 +123,10 @@ Inspect Shared Preference
 MAS Application
 1. cd /data/data/com.cn.cannet_dlms.mas/shared_prefs
 2. cat com.cm.cannet_dlms.mas_preferences.xml
+3. exit
+4. exit
+5. adb shell su -c "cat /data/data/com.cn.cannet_dlms.mas/shared_prefs/com.cn.cannet_dlms.mas_preferences.xml" > /mnt/hgfs/Vmware_shared/mas_preferences.xml
+6. 
 
 
 
