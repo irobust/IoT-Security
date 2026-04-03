@@ -94,6 +94,13 @@ sudo bettercap
 3. cd TP-Link....
 4. jadx-gui com.tplink.iot.apk
 
+## Inspect Data
+1. Open Wifi adb
+2. adb connect 192.168.1.5:5555
+3. adb devices
+4. adb shell
+    * su
+
 
 
 
