@@ -100,8 +100,15 @@ sudo bettercap
 3. adb devices
 4. adb shell
     * su
+5. Revices Files
     * ls /data/data | grep tplink
     * ls /data/data/com.tplink.iot
+    * cd /data/data/com.tplink.iot
+    * cat files/Persisted......
+    * Copy JWT Token and Paste at token.dev
+6. Reviews Databases
+    * ls databases
+
 
 
 
