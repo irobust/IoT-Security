@@ -142,10 +142,14 @@ Review Log
 ### Install Mosquitto
 1. sudo apt install -y mosquitto mosquitto-clients
 2. mosquitto_sub -h TARGET -t "#" -v
-3. Decode Base64 output from console ![Output from MQTT](Output_MQTT.png)
-4. Try to publish message to MQTT server
+4. Decode Base64 output from console ![Output from MQTT](Output_MQTT.png)
+5. Try to publish message to MQTT server
+6. Open the new tab and publish message with this command
+   ```bash
     mosquitto_pub -h TARGET -t [Copy from base64 output] -m "hello"
-5. Add command to MQTT server with this format ![Publish Message to MQTT server](Publish-Message.png)
+   ```
+7. Add command to MQTT server with this format ![Publish Message to MQTT server](Publish-Message.png)
+8. Encode and publish
 
 
 
