@@ -145,7 +145,7 @@ Review Log
 3. Decode Base64 output from console ![Output from MQTT](Output_MQTT.png)
 4. Try to publish message to MQTT server
     mosquitto_pub -h TARGET -t [Copy from base64 output] -m "hello"
-5. Add command to MQTT server with this format
+5. Add command to MQTT server with this format ![Publish Message to MQTT server](Publish-Message.png)
 
 
 
