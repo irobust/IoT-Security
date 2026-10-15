@@ -148,8 +148,11 @@ Review Log
    ```bash
     mosquitto_pub -h TARGET -t [Copy from base64 output] -m "hello"
    ```
-7. Add command to MQTT server with this format ![Publish Message to MQTT server](Publish-Message.png)
-8. Encode and publish
+7. Check the return result from moquitto_sub console
+8. Try both topic (pub and sub topics)
+9. Find the error `Invalid message format`
+10. Update command with this format ![Publish Message to MQTT server](Publish-Message.png)
+11. Encode and publish
 
 
 
