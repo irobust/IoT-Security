@@ -133,6 +133,18 @@ Review Log
 2. adb shell su -c "ps | grep com.cn.cannet_dlms.mas"
 3. adb logcat | grep [Process ID from step 2]
 
+## MQTT Pentest
+1. nmap -p- -T4 TARGET
+2. nmap -p 1833 -sV -sC --scripts=vuln -T4 TARGET
+3. nmap --script mqtt-subscribe -p 1883,8883 TARGET
+4. nmap -sC -sV -p1883,8883 TARGET
+
+### Install Mosquitto
+1. sudo apt install -y mosquitto mosquitto-clients
+2. mosquitto_sub -h TARGET -t "#" -v
+3. Decode Base64 output from console
+
+
 
 
 
