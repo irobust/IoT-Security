@@ -142,7 +142,8 @@ Review Log
 ### Install Mosquitto
 1. sudo apt install -y mosquitto mosquitto-clients
 2. mosquitto_sub -h TARGET -t "#" -v
-3. Decode Base64 output from console
+3. Decode Base64 output from console ![Output from MQTT](Output_MQTT.png)
+4. 
 
 
 
